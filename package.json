@@ -1,7 +1,7 @@
 {
-  "name": "@zebulonj/redux-utils",
+  "name": "@zebulonj/redux-immutable",
   "version": "0.0.0",
-  "description": "Utilities for Redux.",
+  "description": "Tools related to immutable state in Redux.",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
@@ -9,13 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:zebulonj/redux-utils.git"
+    "url": "git@github.com:zebulonj/redux-immutable.git"
   },
   "keywords": [
     "Redux",
-    "Immutable",
-    "middleware",
-    "thunk"
+    "Immutable"
   ],
   "author": "Zebulon Young (zebulonj@gmail.com)",
   "license": "MIT",
@@ -24,9 +22,9 @@
     "lib/"
   ],
   "bugs": {
-    "url": "https://github.com/zebulonj/redux-utils/issues"
+    "url": "https://github.com/zebulonj/redux-immutable/issues"
   },
-  "homepage": "https://github.com/zebulonj/redux-utils#readme",
+  "homepage": "https://github.com/zebulonj/redux-immutable#readme",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
